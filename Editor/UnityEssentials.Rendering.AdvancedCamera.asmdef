@@ -1,14 +1,14 @@
 {
-    "name": "UnityEssentials.Graphics.AdvancedCamera",
+    "name": "UnityEssentials.Rendering.AdvancedCamera",
     "rootNamespace": "UnityEssentials",
     "references": [
-        "UnityEssentials.Systems.AssetResolver.Editor",
-        "UnityEssentials.Movement.Camera.SpectatorController",
+        "UnityEssentials.Movement.SpectatorController",
         "UnityEssentials.Rendering.Camera.FocusPointRayCaster",
         "UnityEssentials.Rendering.Camera.LuminanceCalculator",
         "UnityEssentials.Rendering.Camera.PhysicalPropertiesController",
         "UnityEssentials.Rendering.Camera.RenderTextureHandler",
-        "UnityEssentials.Rendering.CameraRefreshRate"
+        "UnityEssentials.Rendering.CameraRefreshRate",
+        "UnityEssentials.Systems.AssetResolver.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

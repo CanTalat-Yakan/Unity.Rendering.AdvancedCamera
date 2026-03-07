@@ -1,12 +1,20 @@
 {
-  "name": "com.unityessentials.graphics.advancedcamera",
-  "version": "1.0.2",
-  "displayName": "Graphics AdvancedCamera",
+  "name": "com.unityessentials.rendering.advancedcamera",
+  "version": "2.0.1",
+  "displayName": "Rendering AdvancedCamera",
   "description": "This is a part of the UnityEssentials Ecosystem",
   "unity": "6000.0",
   "unityRelease": "",
   "resolutionStrategy": "highestPatch",
-  "dependencies": {},
+  "dependencies": {
+    "com.unityessentials.movement.spectatorcontroller": "2.0.0",
+    "com.unityessentials.rendering.camera.camerarefreshrate": "2.0.0",
+    "com.unityessentials.rendering.camera.focuspointraycaster": "2.0.0",
+    "com.unityessentials.rendering.camera.luminancecalculator": "2.0.0",
+    "com.unityessentials.rendering.camera.physicalpropertiescontroller": "2.0.0",
+    "com.unityessentials.rendering.camera.rendertexturecreator": "2.0.0",
+    "com.unityessentials.systems.assetresolver": "2.0.0"
+  },
   "keywords": [],
   "author": {
     "name": "Unity Essentials",
